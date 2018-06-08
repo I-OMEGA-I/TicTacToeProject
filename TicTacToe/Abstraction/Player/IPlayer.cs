@@ -7,5 +7,6 @@ namespace TicTacToe.Abstraction.Player
     interface IPlayer
     {
         char Character { get; }
+        bool NextStep { get; set; }
     }
 }

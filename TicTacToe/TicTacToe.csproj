@@ -8,4 +8,12 @@
     <Compile Remove="Class1.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Include="Abstraction\Logic\Combination.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Implementation\Logic\" />
+  </ItemGroup>
+
 </Project>
