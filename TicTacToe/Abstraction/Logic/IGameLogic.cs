@@ -10,6 +10,6 @@ namespace TicTacToe.Abstraction.Logic
         void StartGame(IPlayer PlayerOne, IPlayer PlayerTwo);
         IPlayer ChooseWinner();
 
-        void MakeStep(IPlayer Player);
+        void MakeStep(IPlayer Player, int Pos);
     }
 }

@@ -9,5 +9,6 @@ namespace TicTacToe.Abstraction.Game
     {
         IPlayer Winner { get; set; }
         IPlayer Loser { get; set; }
+
     }
 }
