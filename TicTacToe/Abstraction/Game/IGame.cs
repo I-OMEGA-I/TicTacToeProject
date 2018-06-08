@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TicTacToe
+namespace TicTacToe.Abstraction.Game
 {
-    class Core
+    interface IGame
     {
-
 
     }
 }

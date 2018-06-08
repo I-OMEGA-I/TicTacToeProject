@@ -2821,6 +2821,13 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "TicTacToe/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.2"
+        }
       }
     }
   },
@@ -8481,6 +8488,11 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "TicTacToe/1.0.0": {
+      "type": "project",
+      "path": "../TicTacToe/TicTacToe.csproj",
+      "msbuildProject": "../TicTacToe/TicTacToe.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8488,7 +8500,8 @@
       "MSTest.TestAdapter >= 1.1.11",
       "MSTest.TestFramework >= 1.1.11",
       "Microsoft.NET.Test.Sdk >= 15.0.0",
-      "Microsoft.NETCore.App >= 1.1.2"
+      "Microsoft.NETCore.App >= 1.1.2",
+      "TicTacToe >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8507,7 +8520,11 @@
       ],
       "frameworks": {
         "netcoreapp1.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Student\\documents\\visual studio 2017\\Projects\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {
+              "projectPath": "C:\\Users\\Student\\documents\\visual studio 2017\\Projects\\TicTacToe\\TicTacToe\\TicTacToe.csproj"
+            }
+          }
         }
       }
     },
